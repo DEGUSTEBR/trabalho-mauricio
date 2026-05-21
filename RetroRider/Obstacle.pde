@@ -21,27 +21,27 @@ class Obstacle {
     x = width + 100;
 
     if (type == 0) {
-      y = 380;
-      imgW = 70;
-      imgH = 100;
-      w = 25;
-      h = 85;
+      y = 355;
+      imgW = 120;
+      imgH = 160;
+      w = 35;
+      h = 130;
       img = loadImage("tipe_1.png");
     }
     if (type == 1) {
-      y = 395;
-      imgW = 120;
-      imgH = 75;
-      w = 60;
-      h = 45;
+      y = 375;
+      imgW = 190;
+      imgH = 120;
+      w = 140;
+      h = 70;
       img = loadImage("tipe_2.png");
     }
     if (type == 2) {
-      y = 400;
-      imgW = 100;
-      imgH = 60;
-      w = 40;
-      h = 30;
+      y = 385;
+      imgW = 160;
+      imgH = 100;
+      w = 110;
+      h = 50;
       img = loadImage("tipe_3.png");
     }
   }

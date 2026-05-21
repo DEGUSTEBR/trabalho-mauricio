@@ -28,6 +28,7 @@ SoundFile somColisao;
 
 void setup() {
   size(1000, 500);
+  surface.setResizable(false);
   player = new Player();
   obstacles = new ArrayList<Obstacle>();
   font = createFont("Arial", 24);
@@ -75,13 +76,8 @@ void draw() {
 // =====================================
 
 void drawBackground() {
-  image(bg, 0, 0, width, height);
+  image(bg, 0, 0, 1000, 500);
 
-  stroke(0);
-  strokeWeight(3);
-  for (int i = 0; i < width; i += 150) {
-    line(i, 385, i + 60, 385);
-  }
 }
 
 // =====================================
